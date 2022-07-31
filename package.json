@@ -1,0 +1,13 @@
+{
+  "name": "aws-lambda-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "check": "serverless invoke local -f hello",
+    "deploy": "serverless deploy --stage dev --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
