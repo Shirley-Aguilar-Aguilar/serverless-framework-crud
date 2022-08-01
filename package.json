@@ -1,13 +1,12 @@
 {
   "name": "aws-lambda-api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "handler.js",
+  "type": "commonjs",
   "scripts": {
     "check": "serverless invoke local -f hello",
     "deploy": "serverless deploy --stage dev --verbose"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "aws-sdk": "^2.1186.0",
+    "uuid": "^8.3.2"
+  }
 }
